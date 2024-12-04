@@ -1,6 +1,15 @@
-package com.example.project.repository;
+package hu.nye.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.example.project.model.Customer;
+import hu.nye.model.Customer;
+import org.springframework.stereotype.Repository;
 
-public interface CustomerRepository extends JpaRepository<Customer, Integer> {}
+/**
+ * Repository interface for {@link Customer} entity.
+ * Provides CRUD operations and additional query methods for managing customers.
+ */
+@Repository
+public interface CustomerRepository extends JpaRepository<Customer, Integer> {
+    // A CRUD műveletek automatikusan elérhetőek a JpaRepository által.
+    // További lekérdezések definiálhatóak itt, ha szükséges.
+}

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"hu.nye"},{"l":"hu.nye.controller"},{"l":"hu.nye.model"},{"l":"hu.nye.repository"},{"l":"hu.nye.service"}];updateSearchResults();
